@@ -1,3 +1,12 @@
+function main(){
+    anime({
+        targets: '#cssSelector .el',
+        translateX: 250
+    });
+}
+
+document.addEventListener("DOMContentLoaded", main);
+
 var a = anime.timeline({
   loop: true,
   easing: "easeInOutBack"
